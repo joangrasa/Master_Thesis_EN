@@ -1,4 +1,4 @@
-# Predictive Fault Detection in Photovoltaic Inverters using semi supervised learning
+# Predictive fault detection in photovoltaic inverters using semi supervised learning
 
 ## Introduction
 
