@@ -18,6 +18,7 @@ The results obtained demonstrate that the LSTM model accurately predicted anomal
 
 ## Data
 
+- **Confidential:** The data of this thesis is confidential.
 - **Operational Data:** More than 2 million records from five photovoltaic inverters.
 - **Meteorological Data:** Collected via the Open-Meteo API.
 
