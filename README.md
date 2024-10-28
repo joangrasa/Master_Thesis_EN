@@ -42,9 +42,3 @@ The results obtained demonstrate that the LSTM model accurately predicted anomal
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Special thanks to the Open-Meteo API for providing meteorological data.
-- Appreciation to the team and resources that supported this research.
-
