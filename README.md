@@ -1,6 +1,8 @@
 # Detección predictiva de fallos en inversores fotovoltaicos mediante aprendizaje semi-supervisado
 
-![Photovoltaic Fault Detection Project](https://jdelectricos.com.co/wp-content/uploads/2017/12/EPM-Granja-solar.jpg))
+<p align="center">
+  <img src="https://jdelectricos.com.co/wp-content/uploads/2017/12/EPM-Granja-solar.jpg" alt="Photovoltaic Fault Detection Project" width="400"/>
+</p>
 
 ## Introducción
 
