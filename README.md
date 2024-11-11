@@ -1,5 +1,7 @@
 # Detección predictiva de fallos en inversores fotovoltaicos mediante aprendizaje semi-supervisado
 
+![Photovoltaic Fault Detection Project](https://jdelectricos.com.co/wp-content/uploads/2017/12/EPM-Granja-solar.jpg))
+
 ## Introducción
 
 Este proyecto aborda el problema de la detección y prevención de fallos en inversores fotovoltaicos a través del análisis predictivo mediante técnicas de aprendizaje automático semi-supervisado. Los inversores fotovoltaicos, componentes esenciales para la conversión de energía solar, pueden experimentar fallos que disminuyen su eficiencia y disponibilidad, impactando negativamente en la producción de energía. El objetivo principal es predecir fallos y anomalías en estos inversores utilizando datos operativos y meteorológicos.
