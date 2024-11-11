@@ -1,45 +1,45 @@
-# Predictive fault detection in photovoltaic inverters using semi supervised learning
+# Detección predictiva de fallos en inversores fotovoltaicos mediante aprendizaje semi-supervisado
 
-## Introduction
+## Introducción
 
-This project addresses the problem of fault detection and prevention in photovoltaic inverters through predictive analysis using semi-supervised machine learning techniques. Photovoltaic inverters, essential components for solar energy conversion, may experience failures that decrease their efficiency and availability, negatively impacting energy production. The primary objective is to predict faults and anomalies in these inverters using operational and meteorological data.
+Este proyecto aborda el problema de la detección y prevención de fallos en inversores fotovoltaicos a través del análisis predictivo mediante técnicas de aprendizaje automático semi-supervisado. Los inversores fotovoltaicos, componentes esenciales para la conversión de energía solar, pueden experimentar fallos que disminuyen su eficiencia y disponibilidad, impactando negativamente en la producción de energía. El objetivo principal es predecir fallos y anomalías en estos inversores utilizando datos operativos y meteorológicos.
 
-The proposed solution involves developing a fault prediction model based on Long Short-Term Memory (LSTM) neural networks and anomaly detection techniques such as Isolation Forest. Over 2 million operational data points from five inverters located in a photovoltaic plant were processed, integrating additional meteorological information obtained through the Open-Meteo API. Dimensionality reduction and normalization techniques were applied to optimize the performance of the models.
+La solución propuesta implica desarrollar un modelo de predicción de fallos basado en redes neuronales de memoria a largo corto plazo (LSTM) y técnicas de detección de anomalías como el Isolation Forest. Se procesaron más de 2 millones de puntos de datos operativos de cinco inversores ubicados en una planta fotovoltaica, integrando información meteorológica adicional obtenida a través de la API de Open-Meteo. Se aplicaron técnicas de reducción de dimensionalidad y normalización para optimizar el rendimiento de los modelos.
 
-This solution is advantageous because, unlike conventional approaches, it can predict faults proactively, allowing for preventive measures and reducing downtime. Additionally, the use of time series-based models enables the capture of more complex and specific patterns, improving prediction accuracy.
+Esta solución es ventajosa porque, a diferencia de los enfoques convencionales, puede predecir fallos de forma proactiva, permitiendo tomar medidas preventivas y reduciendo el tiempo de inactividad. Además, el uso de modelos basados en series temporales permite captar patrones más complejos y específicos, mejorando la precisión de la predicción.
 
-The results obtained demonstrate that the LSTM model accurately predicted anomalies, although there is room for improvement in terms of temporal anticipation. This work lays the groundwork for future detailed research on the implementation of these models in real-world settings and their optimization to further enhance the efficiency of photovoltaic plants.
+Los resultados obtenidos demuestran que el modelo LSTM predijo con precisión las anomalías, aunque existen oportunidades de mejora en términos de anticipación temporal. Este trabajo sienta las bases para futuras investigaciones detalladas sobre la implementación de estos modelos en entornos reales y su optimización para mejorar aún más la eficiencia de las plantas fotovoltaicas.
 
-## Objectives
+## Objetivos
 
-- Develop a predictive model for fault detection in photovoltaic inverters.
-- Analyze operational and meteorological data to identify patterns leading to failures.
-- Implement and evaluate machine learning techniques, including LSTM and Isolation Forest.
+- Desarrollar un modelo predictivo para la detección de fallos en inversores fotovoltaicos.
+- Analizar datos operativos y meteorológicos para identificar patrones que conduzcan a fallos.
+- Implementar y evaluar técnicas de aprendizaje automático, incluidas LSTM e Isolation Forest.
 
-## Data
+## Datos
 
-- **Confidential:** The data of this thesis is confidential.
-- **Operational Data:** More than 2 million records from five photovoltaic inverters.
-- **Meteorological Data:** Collected via the Open-Meteo API.
+- **Confidencial:** Los datos de esta tesis son confidenciales.
+- **Datos Operativos:** Más de 2 millones de registros de cinco inversores fotovoltaicos.
+- **Datos Meteorológicos:** Recopilados a través de la API de Open-Meteo.
 
-## Methodology
+## Metodología
 
-1. **Data Collection:** Gather operational and meteorological data.
-2. **Data Preprocessing:** Apply normalization and dimensionality reduction.
-3. **Model Development:** Utilize LSTM networks and anomaly detection techniques.
-4. **Evaluation:** Assess model performance in terms of accuracy and prediction capability.
+1. **Recopilación de Datos:** Obtención de datos operativos y meteorológicos.
+2. **Preprocesamiento de Datos:** Aplicación de normalización y reducción de dimensionalidad.
+3. **Desarrollo del Modelo:** Utilización de redes LSTM y técnicas de detección de anomalías.
+4. **Evaluación:** Valoración del rendimiento del modelo en términos de precisión y capacidad de predicción.
 
-## Results
+## Resultados
 
-- The LSTM model successfully predicted anomalies with considerable accuracy.
-- Identified areas for improvement in the anticipation of fault occurrences.
+- El modelo LSTM predijo con éxito anomalías con una precisión considerable.
+- Se identificaron áreas de mejora en la anticipación de ocurrencias de fallos.
 
-## Future Work
+## Trabajo Futuro
 
-- Explore further enhancements in model architecture and hyperparameters.
-- Implement the model in real-world scenarios to evaluate practical applicability.
-- Investigate the integration of additional data sources for improved prediction.
+- Explorar mejoras adicionales en la arquitectura y los hiperparámetros del modelo.
+- Implementar el modelo en escenarios del mundo real para evaluar su aplicabilidad práctica.
+- Investigar la integración de fuentes de datos adicionales para una mejor predicción.
 
-## License
+## Licencia
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este proyecto está licenciado bajo la Licencia MIT; consulte el archivo [LICENSE](LICENSE) para obtener más detalles.
